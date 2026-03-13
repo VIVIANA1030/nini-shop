@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NINI SHOP Sexshop</title>
+
+<meta name="description" content="Explora tu lado más atrevido con discreción y estilo. Productos premium para adultos.">
+
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- Imagen principal -->
+<img class="banner" src="E:\WhatsApp Image 2026-03-13 at 9.59.19 AM.jpeg">
+<div class="descripcion">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Sora',sans-serif;
+background:#0e0e0e;
+color:white;
+}
+.banner{
+width:100%;
+max-height:400px;
+object-fit:cover;
+}
+
+
+/* NAVBAR */
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:#000;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+z-index:1000;
+}
+
+.logo{
+color:#ff2e93;
+font-size:26px;
+font-weight:700;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#ff2e93;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('banner.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:600px;
+margin-bottom:20px;
+}
+
+
+.hero button{
+background:#ff2e93;
+border:none;
+padding:12px 30px;
+color:white;
+font-size:16px;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* PRODUCTOS */
+
+.productos{
+padding:100px 20px;
+text-align:center;
+}
+
+.productos h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#1a1a1a;
+border-radius:12px;
+overflow:hidden;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+}
+
+.card-info{
+padding:15px;
+}
+
+.precio{
+color:#ff2e93;
+font-size:18px;
+margin:10px 0;
+}
+
+.boton{
+background:#ff2e93;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* PROMO */
+
+.promo{
+background:#ff2e93;
+padding:60px 20px;
+text-align:center;
+}
+
+.promo h2{
+font-size:30px;
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+footer{
+background:#000;
+padding:40px;
+text-align:center;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25d366;
+color:white;
+font-size:24px;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">NINI SHOP</div>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#">Productos</a>
+<a href="#">Promos</a>
+<a href="#">Contacto</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<h1>Descubre tu lado más atrevido</h1>
+
+<p>
+Un espacio discreto donde los pequeños secretos y los momentos especiales se disfrutan con estilo.
+</p>
+
+
+<button>Ver Productos</button>
+
+</section>
+
+<section class="productos">
+<section class="Bajo pedido">
+
+<h2>Bajo pedido </h2>
+
+<div class="grid-categorias">
+</section>
+
+<div class="grid">
+
+<div class="card">
+<img src="producto1.jpg">
+<div class="card-info">
+<h3>Lenceria</h3>
+<p class="producto">$299</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+
+<div class="card">
+<img src="C:\Users\sandr\Downloads\ppp.jpg">
+<div class="card-info">
+<h3>Vibradores</h3>
+<p class="producto">$350</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+<div class="card">
+<img src="C:\Users\sandr\Downloads\ppp.jpg">
+<div class="card-info">
+<h3>lubricantes</h3>
+<p class="producto">$350</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+<div class="card">
+<img src="C:\Users\sandr\Downloads\ppp.jpg">
+<div class="card-info">
+<h3>Juguetes</h3>
+<p class="producto">$350</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+</section>
+<center><h2>Productos Destacados<center></h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="producto1.jpg">
+<div class="card-info">
+<h3>Producto 1</h3>
+<p class="precio">$299</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+<div class="card">
+<img src="producto2.jpg">
+<div class="card-info">
+<h3>Producto 2</h3>
+<p class="precio">$399</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+<div class="card">
+<img src="producto3.jpg">
+<div class="card-info">
+<h3>Producto 3</h3>
+<p class="precio">$249</p>
+<button class="boton">Ver Productos</button>
+</div>
+</div>
+
+<div class="card">
+<img src="C:\Users\sandr\Downloads\ppp.jpg">
+<div class="card-info">
+<h3>PARA ELLA</h3>
+<p class="precio">$350</p>
+<button class="boton">Ver Productos</button>
+
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="promo">
+
+<h2>Promoción Especial 🔥</h2>
+<p>Compra 2 productos y obtén 10% de descuento</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 NINI SHOP — Discreción garantizada</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/5514772317">💬</a>
+
+</body>
+</html>
